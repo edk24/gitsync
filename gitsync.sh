@@ -26,7 +26,7 @@ if [ 0 -lt ${#is_change} ]; then
     # pull
     result=$(git pull origin $branch)
     tmp=$(echo $result | grep "fix conflicts")
-    if [[ "$tmp" != "" ]]
+    if [ "$tmp" != "" ]
     then
         echo "(ノ=Д=)ノ┻━┻ 合并冲突, 请手动解决后提交"
     else
