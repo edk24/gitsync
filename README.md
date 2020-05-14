@@ -38,7 +38,7 @@ if (检查文件是否有改动 == TRUE) {
 #### 操作系统
 
 - Linux 
-- Windows (git bash)
+- Windows (git bash中使用)
 
 
 
